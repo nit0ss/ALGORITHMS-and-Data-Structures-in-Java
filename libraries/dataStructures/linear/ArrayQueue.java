@@ -1,6 +1,6 @@
 package libraries.dataStructures.linear;
 
-import libraries.dataStructures.models.Queue;
+import libraries.dataStructures.models.*;
 
 /** Implementing queue interface throughout an Array 
 *@author (nitoss)
@@ -42,6 +42,10 @@ public class ArrayQueue<E> implements Queue<E>{
 
     public boolean isEmpty(){
         return (size == 0);
+    }
+
+    public E first(){
+        return array[first];
     }
 
     public int increment(int index){
