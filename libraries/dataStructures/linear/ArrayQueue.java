@@ -32,6 +32,9 @@ public class ArrayQueue<E> implements Queue<E>{
         size++;
         
     }
+    public int size(){
+        return size;
+    }
 
     public E desize(){
         E theFirst = array[first];

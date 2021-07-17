@@ -13,4 +13,5 @@ package libraries.dataStructures.models;
     E desize();
     E first();
     boolean isEmpty();
+    int size();
  }
