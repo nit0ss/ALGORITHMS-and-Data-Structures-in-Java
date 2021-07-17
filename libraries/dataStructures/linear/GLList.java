@@ -1,7 +1,5 @@
 package libraries.dataStructures.linear;
-
-
-import libraries.dataStructures.models.*;
+import libraries.dataStructures.models.List;
 
 
 /** Implementing Generic Linked List throughout a List

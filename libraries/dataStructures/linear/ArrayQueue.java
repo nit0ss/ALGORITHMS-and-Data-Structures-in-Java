@@ -4,7 +4,7 @@ import libraries.dataStructures.models.*;
 
 /** Implementing queue interface throughout an Array 
 *@author (nitoss)
-*@version 1.0.0
+*@version 1.0.1
 *@param <E> Array generic data type
  */
 
